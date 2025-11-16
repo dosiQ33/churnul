@@ -1,0 +1,3 @@
+segment_group,segment_name,algorithm,balancing_method,roc_auc,gini,f1,precision,recall,threshold,psi,psi_interpretation,train_time_sec,model_file
+Segment 1,Small Business,XGBoost,No balancing,0.8958141625576125,0.791628325115225,0.2389353141442278,0.2236643875304206,0.2564443263353707,0.12,0.001338338602846593,✅ Отлично - модель стабильна,44.45969557762146,best_xgboost_seg1.pkl
+Segment 2,Middle + Large Business,CatBoost,No balancing,0.8768653643008051,0.7537307286016102,0.0684104627766599,0.103030303030303,0.0512048192771084,0.1,0.01577543583681622,✅ Отлично - модель стабильна,4.797196626663208,best_catboost_seg2.pkl
